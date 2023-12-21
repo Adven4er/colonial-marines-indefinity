@@ -20,6 +20,12 @@
 "ac" = (
 /turf/open/openspace,
 /area/skyscraper/out)
+"ag" = (
+/obj/structure/closet/cabinet,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "ah" = (
 /obj/effect/decal/cleanable/blood/xeno{
 	icon_state = "xgibarm"
@@ -44,10 +50,31 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"am" = (
+/obj/structure/stairs{
+	dir = 1;
+	terminator_mode = 2;
+	opacity = TRUE
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "an" = (
 /turf/open/auto_turf/sand_white/layer0{
 	desc = "Далекая поверхность планеты покрытая ядовитым туманом, кажется тут очень высоко, лучше стоять подальше от обрыва";
 	name = "Distant Planet Cover"
+	},
+/area/skyscraper/out)
+"ap" = (
+/obj/structure/machinery/light/small/blue{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
 	},
 /area/skyscraper/out)
 "aq" = (
@@ -249,6 +276,20 @@
 "aP" = (
 /turf/closed/wall/almayer/white,
 /area/skyscraper/building)
+"aQ" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/pancakes,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"aR" = (
+/obj/structure/surface/rack,
+/obj/item/reagent_container/food/snacks/packaged_hdogs,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "aS" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/skyscraper/out)
@@ -285,6 +326,10 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/building)
+"ba" = (
+/obj/structure/machinery/cm_vending/sorted/medical/wall_med,
+/turf/closed/wall/almayer/white,
+/area/skyscraper/out)
 "bb" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/power/apc{
@@ -467,6 +512,16 @@
 	tag = "icon-red"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"bJ" = (
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/plating,
+/area/skyscraper/out)
+"bK" = (
+/obj/structure/largecrate/supply/medicine/blood,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "bL" = (
 /obj/effect/landmark/corpsespawner/pmc,
 /obj/effect/decal/cleanable/blood/xeno,
@@ -478,6 +533,9 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"bM" = (
+/turf/open/floor/plating,
+/area/skyscraper/out)
 "bN" = (
 /turf/open/openspace,
 /area/skyscraper/building)
@@ -1143,6 +1201,13 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building)
+"dj" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/storage/toolbox/mechanical/green,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "do" = (
 /turf/open/floor/plating/kutjevo,
 /area/skyscraper/out)
@@ -1198,6 +1263,12 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"dv" = (
+/obj/item/weapon/twohanded/folded_metal_chair,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "dw" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/effect/mapping_helpers/sunlight/pseudo_roof_setter/concrete,
@@ -1452,6 +1523,20 @@
 	icon_state = "platingdmg3"
 	},
 /area/skyscraper/building/engineering/upper)
+"eo" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "ep" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -1494,6 +1579,10 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"ev" = (
+/obj/structure/cargo_container/grant/leftmid,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "ew" = (
 /obj/effect/landmark/corpsespawner/pmc,
 /turf/open/floor/plating/plating_catwalk,
@@ -2262,6 +2351,12 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/plating,
 /area/skyscraper/building/engineering/upper)
+"fR" = (
+/obj/structure/largecrate/supply/medicine,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "fS" = (
 /obj/structure/barricade/metal/wired{
 	dir = 8
@@ -2362,6 +2457,14 @@
 	icon = 'icons/turf/floors/desert_water_toxic.dmi'
 	},
 /area/skyscraper/building/engineering/upper)
+"gj" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "gk" = (
 /obj/structure/largecrate/random/barrel/yellow,
 /obj/structure/machinery/light/small,
@@ -2503,6 +2606,10 @@
 /obj/effect/landmark/structure_spawner/setup/distress/xeno_weed_node,
 /turf/open/floor/plating,
 /area/skyscraper/building/engineering/upper)
+"gB" = (
+/obj/structure/cargo_container/grant/rightmid,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "gC" = (
 /obj/structure/prop/structure_lattice{
 	health = 300
@@ -2834,6 +2941,23 @@
 	},
 /turf/open/floor/kutjevo/grey/plate,
 /area/skyscraper/building/engineering/upper)
+"ht" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 4;
+	name = "Bathroom"
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"hu" = (
+/obj/structure/bed/chair/comfy{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "hv" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 1
@@ -2949,6 +3073,32 @@
 	},
 /turf/open/floor/plating,
 /area/skyscraper/building/engineering/upper)
+"hD" = (
+/obj/structure/barricade/handrail/wire{
+	layer = 3.5
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
+"hE" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"hF" = (
+/obj/structure/surface/table/woodentable/fancy,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "hH" = (
 /obj/structure{
 	dir = 4;
@@ -3195,6 +3345,15 @@
 	},
 /turf/open/floor/kutjevo/colors/orange,
 /area/skyscraper/building/engineering/upper)
+"hW" = (
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/lavendergrass{
+	icon_state = "lavendergrass_4"
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "hY" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -3250,6 +3409,12 @@
 	tag = "icon-sterile_green_corner (NORTH)"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"ig" = (
+/obj/structure/closet/wardrobe/engineering_yellow,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "ii" = (
 /obj/structure/window/framed/almayer/white,
 /turf/open/floor/plating,
@@ -3601,6 +3766,12 @@
 	},
 /turf/open/floor/kutjevo/colors/orange,
 /area/skyscraper/building/engineering/upper)
+"jh" = (
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "jj" = (
 /obj/structure/machinery/vending/snack,
 /turf/open/floor/plating,
@@ -3630,6 +3801,13 @@
 	dir = 4
 	},
 /area/skyscraper/building/engineering/upper)
+"jm" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/tofupie,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "jn" = (
 /obj/structure/machinery/computer/station_alert{
 	dir = 8
@@ -3647,6 +3825,15 @@
 	},
 /turf/open/floor/kutjevo/colors/orange,
 /area/skyscraper/building/engineering/upper)
+"jo" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 1;
+	pixel_y = 21
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "jp" = (
 /obj/structure{
 	desc = "A lightweight support lattice.";
@@ -3696,6 +3883,16 @@
 	},
 /turf/open/floor/plating/kutjevo,
 /area/skyscraper/building/engineering/upper)
+"ju" = (
+/obj/structure/barricade/handrail/wire{
+	layer = 3.5
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 1;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "jv" = (
 /obj/structure/machinery/power/geothermal{
 	desc = "A thermoelectric generator fueled by searing hot uranium!";
@@ -3709,6 +3906,12 @@
 	tag = "icon-blue (NORTHWEST)"
 	},
 /area/skyscraper/building/landing_zone/one)
+"jw" = (
+/obj/structure/machinery/vending/snack,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "jx" = (
 /obj/effect/decal/cleanable/blood/xeno{
 	icon_state = "xgib2"
@@ -3809,6 +4012,25 @@
 	},
 /turf/open/floor/kutjevo/grey/plate,
 /area/skyscraper/building/engineering/upper)
+"jO" = (
+/obj/structure/machinery/shower{
+	dir = 1;
+	tag = "icon-shower (NORTH)"
+	},
+/obj/structure/curtain/open/shower,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"jP" = (
+/obj/structure/bed/chair{
+	can_buckle = 0;
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "jQ" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -3875,6 +4097,14 @@
 	tag = "icon-redcorner (WEST)"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"jZ" = (
+/obj/structure/bed/chair/wood/wings{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "kc" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/structure/barricade/handrail/wire,
@@ -4368,6 +4598,12 @@
 	},
 /turf/open/floor/wood,
 /area/skyscraper/building/security_sector/blockpost)
+"ls" = (
+/obj/structure/largecrate/random/barrel/yellow,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "lt" = (
 /obj/structure{
 	desc = "A lightweight support lattice.";
@@ -4453,6 +4689,13 @@
 	},
 /turf/open/floor/kutjevo/colors/orange,
 /area/skyscraper/building/engineering/upper)
+"ly" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/tape/random,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "lz" = (
 /obj/structure{
 	desc = "A lightweight support lattice.";
@@ -4681,6 +4924,12 @@
 /obj/effect/spawner/random/powercell,
 /turf/open/floor/plating,
 /area/skyscraper/building/engineering/upper)
+"ma" = (
+/obj/structure/surface/rack,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "mb" = (
 /obj/structure/flora/bush/ausbushes/var3/brflowers,
 /turf/open/floor/grass,
@@ -4896,6 +5145,12 @@
 	icon_state = "panelscorched"
 	},
 /area/skyscraper/building/engineering/upper)
+"mA" = (
+/obj/structure/largecrate/supply/supplies/water,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "mB" = (
 /obj/docking_port/stationary/sselevator,
 /turf/open/floor/almayer{
@@ -5066,6 +5321,12 @@
 	tag = "icon-redfull"
 	},
 /area/skyscraper/building/engineering/upper)
+"nc" = (
+/obj/structure/barricade/wooden{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/skyscraper/out)
 "nd" = (
 /obj/effect/decal/cleanable/blood/xeno{
 	icon_state = "xgib6"
@@ -5074,6 +5335,12 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"nf" = (
+/obj/structure/machinery/light/small/blue,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "ng" = (
 /obj/effect/decal/cleanable/blood/xeno{
 	icon_state = "xgib3"
@@ -5222,6 +5489,16 @@
 	icon_state = "panelscorched"
 	},
 /area/skyscraper/building/engineering/upper)
+"nx" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = -1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "ny" = (
 /obj/structure{
 	dir = 4;
@@ -5404,6 +5681,12 @@
 	tag = "icon-red"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"nR" = (
+/obj/structure/largecrate/random/barrel/green,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "nU" = (
 /obj/effect/landmark/queen_spawn,
 /turf/open/floor/plating,
@@ -5443,6 +5726,10 @@
 	},
 /turf/open/floor/plating/plating_catwalk,
 /area/skyscraper/building/security_sector/blockpost)
+"oa" = (
+/obj/structure/cargo_container/wy/left,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "ob" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
@@ -5571,6 +5858,14 @@
 	tag = "icon-redcorner (WEST)"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"os" = (
+/obj/structure/bed/chair{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "ou" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/surface/table/almayer,
@@ -5629,6 +5924,12 @@
 	tag = "icon-test_floor4"
 	},
 /area/skyscraper/building/engineering/upper)
+"oB" = (
+/obj/structure/window{
+	dir = 1
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "oC" = (
 /obj/structure/machinery/vending/cigarette,
 /obj/item/prop/helmetgarb/helmet_nvg/cosmetic{
@@ -5790,6 +6091,18 @@
 	dir = 8
 	},
 /turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
+"oX" = (
+/obj/structure/closet/secure_closet/engineering_electrical,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"oY" = (
+/obj/structure/cargo_container/wy/right,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
 /area/skyscraper/out)
 "pa" = (
 /obj/structure/platform{
@@ -5980,6 +6293,22 @@
 	dir = 4
 	},
 /area/skyscraper/building/engineering/upper)
+"pA" = (
+/obj/structure/bed/chair/comfy/black,
+/obj/effect/landmark/corpsespawner/security/liaison,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"pB" = (
+/obj/structure/barricade/handrail/wire{
+	layer = 3.5
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "pD" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -6408,6 +6737,12 @@
 	tag = "icon-bluecorner (NORTH)"
 	},
 /area/skyscraper/building/cargo_sector)
+"qC" = (
+/obj/structure/machinery/vending/coffee,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "qF" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/reinforced{
 	dir = 2;
@@ -6560,6 +6895,17 @@
 	tag = "icon-red"
 	},
 /area/skyscraper/out)
+"rf" = (
+/obj/structure/surface/rack,
+/obj/structure/machinery/light/double/blue{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "rg" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -6685,6 +7031,17 @@
 	tag = "icon-bluecorner (NORTH)"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"rw" = (
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "rx" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -6785,6 +7142,10 @@
 	},
 /turf/open/floor/wood,
 /area/skyscraper/building/security_sector/blockpost)
+"rL" = (
+/obj/structure/cargo_container/wy/mid,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "rP" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -6794,6 +7155,10 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"rQ" = (
+/obj/structure/cargo_container/lockmart/mid,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "rR" = (
 /obj/structure/largecrate,
 /obj/structure/machinery/light/double/blue{
@@ -6826,6 +7191,14 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"rV" = (
+/obj/structure/barricade/wooden{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "rW" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 4
@@ -6938,6 +7311,19 @@
 	tag = "icon-test_floor4"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"sk" = (
+/obj/item/ammo_parts/casing{
+	pixel_y = -5;
+	pixel_x = 3
+	},
+/obj/item/ammo_parts/casing{
+	pixel_y = 8;
+	pixel_x = -9
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "sl" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 1;
@@ -7067,6 +7453,17 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/cargo_sector)
+"sF" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "sG" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/almayer{
@@ -7168,6 +7565,13 @@
 	tag = "icon-red"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"sQ" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/twobread,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "sR" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 8
@@ -7293,6 +7697,13 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/building)
+"tm" = (
+/obj/structure/surface/table/woodentable/poor,
+/obj/item/tool/carpenters_hammer,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "tn" = (
 /obj/structure/largecrate/random/barrel/green,
 /turf/open/floor/almayer{
@@ -7331,6 +7742,12 @@
 	tag = "icon-red"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"tq" = (
+/obj/structure/largecrate/supply,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "tr" = (
 /obj/structure/prop/dam/crane{
 	icon_state = "tractor";
@@ -7402,6 +7819,14 @@
 "tD" = (
 /turf/open/floor/plating,
 /area/skyscraper/building/landing_zone/cargo)
+"tF" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor/colony{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "tG" = (
 /obj/structure/sign/safety/bathunisex{
 	pixel_x = -17
@@ -7639,6 +8064,23 @@
 /obj/item/paper/carbon,
 /turf/open/floor/plating/prison,
 /area/skyscraper/building/landing_zone/console/two)
+"uq" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1;
+	pixel_y = 14
+	},
+/obj/structure/barricade/handrail/wire{
+	layer = 3.5
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
+"ut" = (
+/obj/structure/flora/bush/ausbushes/lavendergrass,
+/obj/structure/window{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "uv" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -7751,6 +8193,11 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"uJ" = (
+/obj/structure/window_frame/almayer/white,
+/obj/item/stack/sheet/glass/reinforced,
+/turf/open/floor/plating,
+/area/skyscraper/out)
 "uK" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
@@ -7809,12 +8256,38 @@
 /obj/effect/landmark/monkey_spawn,
 /turf/open/floor/plating/prison,
 /area/skyscraper/building/landing_zone/console/two)
+"uU" = (
+/obj/structure/surface/table/almayer,
+/obj/item/toy/deck{
+	pixel_y = -3;
+	pixel_x = 5
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"uW" = (
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/palebush,
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "uX" = (
 /obj/structure/bed/chair/dropship/pilot{
 	dir = 1
 	},
 /turf/open/floor/plating/prison,
 /area/skyscraper/building/landing_zone/console/two)
+"uY" = (
+/obj/structure/toilet{
+	dir = 8;
+	tag = "icon-toilet00 (WEST)"
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "va" = (
 /obj/structure/cargo_container{
 	icon_state = "ferret_l"
@@ -8096,6 +8569,15 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/cargo_sector)
+"vS" = (
+/obj/structure/flora/bush/ausbushes/lavendergrass{
+	icon_state = "lavendergrass_3"
+	},
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "vT" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/warning_stripes{
@@ -8124,6 +8606,22 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"vW" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/stairs{
+	dir = 1;
+	terminator_mode = 2;
+	opacity = TRUE
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "vY" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -8188,6 +8686,12 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/cargo_sector)
+"wj" = (
+/obj/structure/surface/table/woodentable,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "wl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out";
@@ -8208,6 +8712,17 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/cargo_sector)
+"wn" = (
+/obj/structure/bed,
+/obj/structure/machinery/light/double/blue{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "wp" = (
 /obj/structure/platform_decoration{
 	dir = 4
@@ -8383,12 +8898,34 @@
 	},
 /turf/open/asphalt/cement,
 /area/skyscraper/building/landing_zone/one)
+"wX" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic2{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "wY" = (
 /obj/effect/landmark/corpsespawner/security,
 /turf/open/floor/almayer{
 	icon_state = "mono"
 	},
 /area/skyscraper/building/cargo_sector)
+"wZ" = (
+/obj/structure/largecrate/random/barrel/blue,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"xc" = (
+/obj/structure/bed/chair/comfy{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "xe" = (
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
 	name = "Security Control Room";
@@ -8474,6 +9011,12 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/cargo_sector)
+"xx" = (
+/obj/structure/largecrate/random/barrel/red,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "xy" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -8799,6 +9342,10 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building)
+"yo" = (
+/obj/structure/largecrate/supply/supplies/tables_racks,
+/turf/open/floor/plating,
+/area/skyscraper/out)
 "yp" = (
 /obj/structure/machinery/light/small{
 	dir = 8;
@@ -9205,6 +9752,12 @@
 	tag = "icon-bluecorner (NORTH)"
 	},
 /area/skyscraper/building/cargo_sector)
+"zz" = (
+/obj/structure/machinery/light/double/blue,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "zA" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 1
@@ -9389,6 +9942,16 @@
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer,
 /area/skyscraper/building/security_sector/blockpost)
+"Af" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ag" = (
 /obj/structure/machinery/door/airlock/almayer/security/reinforced{
 	dir = 2;
@@ -9469,6 +10032,14 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"An" = (
+/obj/structure/machinery/door/airlock/almayer/generic{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ap" = (
 /obj/structure/barricade/handrail/wire,
 /turf/open/floor/almayer{
@@ -9711,6 +10282,12 @@
 	tag = "icon-bluecorner (NORTH)"
 	},
 /area/skyscraper/building/landing_zone/cargo)
+"Bk" = (
+/obj/structure/cargo_container/grant/rightmid,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Bl" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "SE-out";
@@ -10284,6 +10861,20 @@
 	},
 /turf/open/floor/plating/prison,
 /area/skyscraper/building/science_sector)
+"CG" = (
+/obj/structure/machinery/vending/cigarette,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"CJ" = (
+/obj/structure/window{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "CK" = (
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = -17;
@@ -10313,6 +10904,14 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"CP" = (
+/obj/structure/barricade/wooden{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "CQ" = (
 /obj/structure/machinery/door/poddoor/shutters/almayer/open{
 	dir = 4;
@@ -10610,6 +11209,15 @@
 	tag = "icon-sterile_green_side (WEST)"
 	},
 /area/skyscraper/building/science_sector)
+"DF" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "DG" = (
 /turf/open/floor/almayer{
 	dir = 5;
@@ -10791,6 +11399,13 @@
 	icon_state = "wy5"
 	},
 /area/skyscraper/building/science_sector)
+"Ee" = (
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/flora/bush/ausbushes/lavendergrass,
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "Ef" = (
 /obj/effect/decal/remains/xeno,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -11106,9 +11721,31 @@
 	tag = "icon-sterile_green_side (EAST)"
 	},
 /area/skyscraper/building/science_sector)
+"Fd" = (
+/obj/structure/bed/chair/wheelchair{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ff" = (
 /turf/open/floor/roof/ship_hull/lab,
 /area/skyscraper/building/landing_zone/one)
+"Fg" = (
+/obj/structure/machinery/vending/hydroseeds,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"Fi" = (
+/obj/structure/barricade/wooden{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Fj" = (
 /turf/closed/shuttle/ert{
 	icon_state = "wy_leftengine"
@@ -11296,6 +11933,13 @@
 /obj/structure/blocker/invisible_wall,
 /turf/open/floor/plating/kutjevo,
 /area/skyscraper/building/science_sector)
+"FL" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/tomatosoup,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "FM" = (
 /obj/structure/platform/kutjevo{
 	dir = 4
@@ -11628,6 +12272,12 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/building/science_sector)
+"Gy" = (
+/obj/structure/surface/table/almayer,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Gz" = (
 /obj/effect/decal/medical_decals{
 	icon_state = "docstripingdir"
@@ -11737,6 +12387,19 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/one)
+"GR" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/stairs{
+	dir = 1;
+	terminator_mode = 2;
+	opacity = TRUE
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "GT" = (
 /obj/structure/bed/stool,
 /turf/open/floor/almayer{
@@ -11755,6 +12418,17 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"GW" = (
+/obj/structure/window{
+	dir = 1
+	},
+/obj/structure/window{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "GY" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -11798,6 +12472,12 @@
 	},
 /turf/open/floor/wood,
 /area/skyscraper/building/security_sector/blockpost)
+"Hd" = (
+/obj/structure/largecrate/random/barrel/white,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "He" = (
 /obj/effect/decal/medical_decals{
 	icon_state = "triagedecaltopleft"
@@ -11843,6 +12523,16 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/building/science_sector)
+"Hn" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 4;
+	pixel_x = 10;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ho" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/almayer{
@@ -11871,6 +12561,13 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/building/science_sector)
+"Hr" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/validsalad,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Hs" = (
 /obj/effect/landmark/corpsespawner/scientist,
 /obj/effect/decal/cleanable/blood/splatter,
@@ -11884,6 +12581,12 @@
 	dir = 1;
 	icon_state = "red";
 	tag = "icon-red (NORTH)"
+	},
+/area/skyscraper/out)
+"Hx" = (
+/obj/structure/cargo_container/lockmart/left,
+/turf/open/floor/almayer{
+	icon_state = "mono"
 	},
 /area/skyscraper/out)
 "Hy" = (
@@ -12199,6 +12902,14 @@
 	tag = "icon-sterile_green_side (NORTH)"
 	},
 /area/skyscraper/building/science_sector)
+"Iq" = (
+/obj/structure/machinery/shower{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Is" = (
 /obj/structure/sign/safety/restrictedarea{
 	pixel_x = 32;
@@ -12220,6 +12931,12 @@
 /turf/open/floor/almayer{
 	icon_state = "redfull";
 	tag = "icon-redfull"
+	},
+/area/skyscraper/out)
+"It" = (
+/obj/structure/bed/sofa/south/white,
+/turf/open/floor/almayer{
+	icon_state = "mono"
 	},
 /area/skyscraper/out)
 "Iu" = (
@@ -12430,6 +13147,10 @@
 	tag = "icon-sterile_green_corner (WEST)"
 	},
 /area/skyscraper/building/science_sector)
+"IV" = (
+/obj/structure/cargo_container/grant/right,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "IW" = (
 /turf/open/floor/almayer{
 	dir = 8;
@@ -12513,6 +13234,23 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/out)
+"Jc" = (
+/obj/structure/surface/rack,
+/obj/item/reagent_container/food/snacks/packaged_meal,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"Jd" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 8;
+	pixel_x = -10;
+	pixel_y = -3
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Jg" = (
 /obj/structure/barricade/handrail/wire{
 	dir = 8
@@ -12571,6 +13309,13 @@
 	},
 /turf/closed/wall/r_wall/biodome/biodome_unmeltable,
 /area/skyscraper/building)
+"Jm" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/stew,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Jn" = (
 /obj/effect/landmark/corpsespawner/pmc,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -12758,6 +13503,14 @@
 	tag = "icon-sterile_green_corner (WEST)"
 	},
 /area/skyscraper/building/science_sector)
+"JK" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic2{
+	dir = 2
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "JL" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/computer/disk_reader{
@@ -12835,6 +13588,12 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/one)
+"JZ" = (
+/obj/structure/surface/table,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ka" = (
 /obj/structure/machinery/vending/cigarette,
 /turf/open/floor/almayer{
@@ -12863,6 +13622,29 @@
 	tag = "icon-sterile_green_side (WEST)"
 	},
 /area/skyscraper/building/science_sector)
+"Kc" = (
+/obj/structure/flora/pottedplant/random,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"Kd" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/obj/item/tool/screwdriver,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"Ke" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Kg" = (
 /obj/structure/filingcabinet/chestdrawer{
 	pixel_x = -8
@@ -12921,6 +13703,10 @@
 	icon_state = "red";
 	tag = "icon-red"
 	},
+/area/skyscraper/building/security_sector/blockpost)
+"Kp" = (
+/obj/structure/machinery/door/airlock/almayer/maint,
+/turf/open/floor/plating,
 /area/skyscraper/building/security_sector/blockpost)
 "Kq" = (
 /obj/structure/bookcase/manuals/engineering,
@@ -12995,6 +13781,14 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/landing_zone/one)
+"KE" = (
+/obj/structure/bed/chair/comfy{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "KF" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/almayer{
@@ -13012,6 +13806,13 @@
 	},
 /turf/open/floor/almayer,
 /area/skyscraper/building/security_sector/blockpost)
+"KK" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/wrapped/chunk,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "KM" = (
 /obj/structure/sink{
 	dir = 4;
@@ -13316,6 +14117,16 @@
 	tag = "icon-blue (SOUTHEAST)"
 	},
 /area/skyscraper/building/landing_zone/one)
+"Lo" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/tofukabob,
+/obj/item/reagent_container/food/snacks/tofukabob{
+	pixel_y = 7
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Lp" = (
 /obj/structure/machinery/shower{
 	dir = 8
@@ -13330,6 +14141,14 @@
 /obj/structure/barricade/handrail/wire,
 /turf/open/asphalt/cement,
 /area/skyscraper/building/landing_zone/one)
+"Lr" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ls" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/platform_decoration{
@@ -13963,6 +14782,21 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"MM" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/stairs{
+	dir = 1;
+	terminator_mode = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "MN" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	name = "Train";
@@ -14019,6 +14853,12 @@
 	tag = "icon-sterile_green_side (NORTH)"
 	},
 /area/skyscraper/building/science_sector)
+"MW" = (
+/obj/structure/bed/sofa/south/white/left,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "MX" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
@@ -14210,6 +15050,14 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"ND" = (
+/obj/structure/machinery/light/small/blue{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "NF" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "S";
@@ -14284,6 +15132,12 @@
 	tag = "icon-sterile_green_side (WEST)"
 	},
 /area/skyscraper/building/science_sector)
+"NQ" = (
+/obj/structure/window{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "NR" = (
 /obj/structure/machinery/sleep_console,
 /turf/open/floor/almayer{
@@ -14301,6 +15155,12 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/plating_catwalk,
 /area/skyscraper/building/landing_zone/one)
+"NV" = (
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "NW" = (
 /obj/structure/bed/chair/office/light{
 	dir = 1
@@ -14412,6 +15272,15 @@
 	tag = "icon-sterile_green_side (SOUTHEAST)"
 	},
 /area/skyscraper/building/science_sector)
+"Oj" = (
+/obj/structure/closet/cabinet,
+/obj/item/weapon/gun/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/obj/item/ammo_magazine/pistol/b92fs,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ol" = (
 /obj/structure/machinery/medical_pod/autodoc,
 /obj/structure/machinery/light/double/blue,
@@ -14501,6 +15370,13 @@
 "OC" = (
 /turf/open/floor/grass,
 /area/skyscraper/out)
+"OD" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/item/paper,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "OE" = (
 /obj/structure/machinery/bioprinter{
 	stored_metal = 1000
@@ -14580,6 +15456,12 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
+/area/skyscraper/out)
+"OX" = (
+/obj/structure/bed,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
 /area/skyscraper/out)
 "Pb" = (
 /obj/structure/barricade/handrail/wire{
@@ -14751,6 +15633,22 @@
 	icon_state = "mono"
 	},
 /area/skyscraper/building)
+"Pr" = (
+/obj/structure/stairs{
+	dir = 1;
+	terminator_mode = 2;
+	opacity = TRUE
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 4
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ps" = (
 /obj/effect/landmark/corpsespawner/security,
 /obj/structure/barricade/handrail/wire{
@@ -15010,6 +15908,10 @@
 /obj/structure/flora/bush/ausbushes/ppflowers,
 /turf/open/floor/grass,
 /area/skyscraper/building/agro_sector)
+"Qi" = (
+/obj/structure/cargo_container/lockmart/right,
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "Qk" = (
 /obj/structure/flora/bush/ausbushes/lavendergrass,
 /turf/open/floor/grass,
@@ -15024,6 +15926,12 @@
 	},
 /turf/open/asphalt/cement,
 /area/skyscraper/building/agro_sector)
+"Qn" = (
+/obj/structure/machinery/door/airlock/almayer/generic,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Qo" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 9;
@@ -15116,6 +16024,18 @@
 "QL" = (
 /turf/open/floor/plating/plating_catwalk,
 /area/skyscraper/building/science_sector)
+"QM" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/obj/structure/stairs{
+	dir = 1;
+	terminator_mode = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "QN" = (
 /obj/structure/sign/safety/bathunisex{
 	pixel_x = 8;
@@ -15184,6 +16104,13 @@
 	},
 /turf/open/floor/wood,
 /area/skyscraper/building/security_sector/blockpost)
+"QX" = (
+/obj/item/reagent_container/syringe/drugs,
+/obj/item/frame/rack,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "QZ" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -15255,6 +16182,12 @@
 	},
 /turf/open/asphalt/cement,
 /area/skyscraper/building/agro_sector)
+"Rl" = (
+/obj/structure/bed/sofa/south/white/right,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Rn" = (
 /turf/open/floor/almayer{
 	dir = 1;
@@ -15347,6 +16280,16 @@
 	tag = "icon-sterile_green_side (WEST)"
 	},
 /area/skyscraper/building/agro_sector)
+"RD" = (
+/obj/structure/largecrate/supply/supplies/flares,
+/turf/open/floor/plating,
+/area/skyscraper/out)
+"RE" = (
+/obj/structure/window/framed/almayer/white,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "RF" = (
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/machinery/computer/cameras/almayer_network/vehicle{
@@ -15517,6 +16460,10 @@
 	tag = "icon-sterile_green_corner (WEST)"
 	},
 /area/skyscraper/building/agro_sector)
+"Sh" = (
+/obj/structure/surface/table/woodentable/poor,
+/turf/open/floor/plating,
+/area/skyscraper/out)
 "Sj" = (
 /obj/structure/machinery/light/double/blue,
 /obj/structure/machinery/portable_atmospherics/hydroponics,
@@ -15572,6 +16519,15 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/out)
+"Sq" = (
+/obj/structure/surface/table/woodentable/fancy,
+/obj/structure/machinery/computer/emails{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Sr" = (
 /obj/structure/barricade/metal/wired{
 	dir = 1
@@ -15607,6 +16563,13 @@
 /obj/structure/flora/bush/ausbushes/var3/leafybush,
 /turf/open/floor/grass,
 /area/skyscraper/building/agro_sector)
+"Sw" = (
+/obj/structure/surface/rack,
+/obj/item/reagent_container/food/snacks/sausage,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Sx" = (
 /turf/open/floor/almayer{
 	dir = 6;
@@ -15650,6 +16613,13 @@
 	},
 /turf/open/openspace,
 /area/skyscraper/out)
+"SD" = (
+/obj/structure/surface/table/almayer,
+/obj/item/reagent_container/food/snacks/wy_chips/pepper,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "SE" = (
 /obj/structure/barricade/metal/wired{
 	dir = 8
@@ -15659,6 +16629,12 @@
 	tag = "icon-sterile"
 	},
 /area/skyscraper/building/agro_sector)
+"SF" = (
+/obj/structure/largecrate/supply/supplies/mre,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "SG" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/barricade/metal/wired{
@@ -15684,6 +16660,14 @@
 	layer = 3.5
 	},
 /turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
+"SK" = (
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
 /area/skyscraper/out)
 "SL" = (
 /turf/open/floor/roof/ship_hull/lab,
@@ -15865,6 +16849,12 @@
 	tag = "icon-sterile_green_side (WEST)"
 	},
 /area/skyscraper/building/agro_sector)
+"Tm" = (
+/obj/structure/largecrate/random,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Tn" = (
 /turf/open/floor/almayer{
 	dir = 4;
@@ -15902,6 +16892,12 @@
 	pixel_y = 14
 	},
 /turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
+"Tr" = (
+/obj/structure/bed/chair/comfy,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
 /area/skyscraper/out)
 "Ts" = (
 /obj/structure/surface/rack,
@@ -16209,6 +17205,16 @@
 /obj/structure/window/framed/almayer/white,
 /turf/open/floor/plating,
 /area/skyscraper/building/security_sector/blockpost)
+"Uw" = (
+/obj/structure/barricade/handrail/wire{
+	dir = 1;
+	pixel_y = 14
+	},
+/obj/structure/barricade/handrail/wire{
+	dir = 8
+	},
+/turf/open/floor/plating/plating_catwalk,
+/area/skyscraper/out)
 "Uz" = (
 /obj/structure/bed{
 	can_buckle = 0
@@ -16667,6 +17673,15 @@
 	},
 /turf/open/floor/plating,
 /area/skyscraper/building/landing_zone/one)
+"VO" = (
+/obj/structure/flora/bush/ausbushes/ppflowers{
+	icon_state = "brflowers_3"
+	},
+/obj/structure/window{
+	dir = 8
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "VP" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	icon_state = "landingstripe";
@@ -16674,6 +17689,15 @@
 	},
 /turf/open/floor/plating,
 /area/skyscraper/building/landing_zone/one)
+"VQ" = (
+/obj/structure/machinery/shower{
+	dir = 4;
+	tag = "icon-shower (EAST)"
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "VR" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/secdoor/reinforced{
 	dir = 2;
@@ -16832,6 +17856,13 @@
 /obj/item/tool/pen,
 /turf/open/floor/wood,
 /area/skyscraper/building/security_sector/blockpost)
+"Wo" = (
+/obj/structure/flora/bush/ausbushes/ppflowers,
+/obj/structure/window{
+	dir = 4
+	},
+/turf/open/floor/grass,
+/area/skyscraper/out)
 "Wp" = (
 /turf/open/floor/plating{
 	dir = 1;
@@ -16916,6 +17947,13 @@
 	},
 /turf/open/floor/plating,
 /area/skyscraper/building/landing_zone/one)
+"WC" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/tofuburger,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "WD" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "E";
@@ -16934,6 +17972,14 @@
 	tag = "icon-test_floor4"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"WE" = (
+/obj/structure/machinery/light/small/blue{
+	dir = 8
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "WG" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /obj/structure/pipes/standard/manifold/hidden/supply,
@@ -16971,6 +18017,12 @@
 	tag = "icon-sterile_green_corner (NORTH)"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"WO" = (
+/obj/structure/machinery/vending/dinnerware,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "WR" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 4;
@@ -17318,6 +18370,12 @@
 	tag = "icon-redfull"
 	},
 /area/skyscraper/out)
+"XV" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/generic2,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "XW" = (
 /obj/structure/barricade/handrail/wire{
 	layer = 3.5
@@ -17329,6 +18387,14 @@
 /obj/item/stack/sheet/metal/small_stack,
 /turf/open/floor/roof/ship_hull/lab,
 /area/skyscraper/building/landing_zone/one)
+"XZ" = (
+/obj/structure/machinery/door/airlock/almayer/generic/glass{
+	dir = 1
+	},
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Ya" = (
 /obj/effect/decal/cleanable/blood/xeno,
 /turf/open/floor/plating/plating_catwalk,
@@ -17468,6 +18534,13 @@
 /obj/structure/barricade/handrail/wire,
 /turf/open/asphalt/cement,
 /area/skyscraper/building/landing_zone/one)
+"YD" = (
+/obj/structure/surface/table,
+/obj/item/reagent_container/food/snacks/vegetablepizzaslice,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "YE" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/structure/platform{
@@ -17529,6 +18602,12 @@
 	tag = "icon-warnplate"
 	},
 /area/skyscraper/building/landing_zone/one)
+"YI" = (
+/obj/structure/machinery/botany,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "YK" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 4;
@@ -17608,6 +18687,12 @@
 	tag = "icon-red (NORTHEAST)"
 	},
 /area/skyscraper/building/security_sector/blockpost)
+"YZ" = (
+/obj/structure/machinery/door/airlock/almayer/maint,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
 "Za" = (
 /turf/open/floor/plating/icefloor{
 	icon_state = "warnplate";
@@ -17784,6 +18869,16 @@
 	icon_state = "warnplate"
 	},
 /area/skyscraper/building/landing_zone/one)
+"Zx" = (
+/obj/structure/bed/chair,
+/turf/open/floor/almayer{
+	icon_state = "mono"
+	},
+/area/skyscraper/out)
+"Zy" = (
+/obj/structure/machinery/door/airlock/almayer/maint,
+/turf/open/floor/plating,
+/area/skyscraper/out)
 "ZB" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
 	dir = 1;
@@ -946854,10 +947949,10 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+GR
+QM
+QM
+pB
 ac
 ac
 ac
@@ -946957,11 +948052,11 @@ ac
 Vr
 Uv
 Uv
-Uv
-Uv
-Uv
-Uv
-Uv
+Vr
+Vr
+Vr
+Kp
+Vr
 Vr
 ac
 ac
@@ -957154,10 +958249,10 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+Uw
+eo
+eo
+Pr
 ac
 ac
 ac
@@ -957257,7 +958352,7 @@ ac
 ac
 ac
 ac
-ac
+VI
 ac
 ac
 ac
@@ -957360,7 +958455,7 @@ ac
 ac
 BY
 BY
-BY
+Zy
 BY
 BY
 BY
@@ -957671,7 +958766,7 @@ aS
 aS
 oH
 oH
-oH
+Hx
 oH
 oH
 aS
@@ -957774,7 +958869,7 @@ aS
 aS
 oH
 oH
-aS
+rQ
 oH
 oH
 aS
@@ -957877,7 +958972,7 @@ aS
 aS
 oH
 oH
-aS
+Qi
 oH
 oH
 aS
@@ -958086,7 +959181,7 @@ oH
 aS
 oH
 oH
-aS
+ev
 aS
 aS
 aS
@@ -958189,7 +959284,7 @@ oH
 aS
 oH
 oH
-aS
+gB
 aS
 aS
 aS
@@ -958292,7 +959387,7 @@ oH
 oH
 oH
 oH
-oH
+Bk
 oH
 oH
 oH
@@ -958395,7 +959490,7 @@ oH
 aS
 oH
 oH
-aS
+IV
 aS
 aS
 aS
@@ -960559,7 +961654,7 @@ aS
 oH
 oH
 aS
-aS
+oa
 aS
 aS
 aS
@@ -960662,7 +961757,7 @@ aS
 oH
 oH
 aS
-aS
+rL
 aS
 aS
 aS
@@ -960765,7 +961860,7 @@ oH
 oH
 oH
 oH
-oH
+oY
 oH
 oH
 oH
@@ -961690,7 +962785,7 @@ BY
 BY
 BY
 BY
-BY
+Zy
 BY
 BY
 ac
@@ -961793,7 +962888,7 @@ ac
 ac
 ac
 ac
-ac
+ju
 ac
 ac
 ac
@@ -961893,10 +962988,10 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+vW
+MM
+MM
+hD
 ac
 ac
 ac
@@ -967562,7 +968657,7 @@ ac
 ac
 ac
 ac
-ac
+SJ
 ac
 ac
 ac
@@ -967665,7 +968760,7 @@ ac
 ac
 ac
 ac
-ac
+ju
 ac
 ac
 ac
@@ -967768,7 +968863,7 @@ BY
 BY
 BY
 BY
-BY
+Zy
 BY
 BY
 ac
@@ -967868,10 +968963,10 @@ BY
 BY
 ac
 ac
+uq
 ac
-ac
-ac
-ac
+VI
+KO
 ac
 BY
 BY
@@ -967971,9 +969066,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+oU
+ni
 ac
 ac
 ac
@@ -968074,9 +969169,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+HY
+ni
 ac
 ac
 ac
@@ -968177,9 +969272,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -968280,9 +969375,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -968383,9 +969478,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -968486,9 +969581,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+oU
+ni
 ac
 ac
 ac
@@ -968589,9 +969684,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+HY
+ni
 ac
 ac
 ac
@@ -968692,9 +969787,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -968795,9 +969890,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -968898,9 +969993,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -969001,9 +970096,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -969104,9 +970199,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -969207,9 +970302,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -969310,9 +970405,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+ju
 ac
 ac
 ac
@@ -969413,9 +970508,9 @@ Tq
 oU
 oU
 oU
+aS
 oU
-oU
-oU
+aS
 oU
 oU
 oU
@@ -970012,9 +971107,9 @@ ac
 ac
 ac
 BY
-bN
-bN
-bN
+aP
+aP
+aP
 aq
 aq
 aq
@@ -970115,13 +971210,13 @@ ac
 ac
 ac
 BY
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+BY
+BY
+BY
+BY
+BY
+BY
+BY
 ac
 ac
 ac
@@ -970218,13 +971313,13 @@ ac
 ac
 ac
 BY
-ac
-ac
-ac
-ac
-ac
-ac
-ac
+BY
+BY
+BY
+BY
+BY
+BY
+BY
 ac
 ac
 ac
@@ -970443,9 +971538,9 @@ AW
 HY
 HY
 HY
+aS
 HY
-HY
-HY
+aS
 HY
 HY
 HY
@@ -970546,9 +971641,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -970649,9 +971744,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -970752,9 +971847,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -970855,9 +971950,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -970958,9 +972053,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -971061,9 +972156,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -971164,9 +972259,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -971267,9 +972362,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+oU
+ni
 ac
 ac
 ac
@@ -971370,9 +972465,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+HY
+ni
 ac
 ac
 ac
@@ -971473,9 +972568,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -971576,9 +972671,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -971679,9 +972774,9 @@ ac
 ac
 ac
 ac
+uq
 ac
-ac
-ac
+uq
 ac
 ac
 ac
@@ -971782,9 +972877,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+oU
+ni
 ac
 ac
 ac
@@ -971885,9 +972980,9 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
+VI
+HY
+ni
 ac
 ac
 ac
@@ -971987,10 +973082,10 @@ BY
 BY
 BY
 ac
+Uw
+ni
 ac
-ac
-ac
-ac
+uq
 ac
 ac
 BY
@@ -972090,7 +973185,7 @@ ac
 ac
 BY
 BY
-BY
+Zy
 BY
 BY
 BY
@@ -972193,10 +973288,10 @@ ac
 ac
 ac
 ac
-ac
-ac
-ac
-ac
+VI
+sF
+sF
+am
 ac
 ac
 ac
@@ -972296,7 +973391,7 @@ ac
 ac
 ac
 ac
-ac
+AW
 ac
 ac
 ac
@@ -978273,7 +979368,7 @@ BY
 BY
 BY
 oH
-oH
+Kc
 oH
 BY
 BY
@@ -978474,21 +979569,21 @@ BY
 BY
 oH
 oH
+Zx
+wj
+oH
+An
+oH
+oH
+oH
+An
 oH
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+wj
 BY
-oH
+jO
 BY
 BY
 ac
@@ -978575,8 +979670,12 @@ BY
 BY
 BY
 BY
+ag
 oH
 oH
+wj
+oH
+BY
 oH
 oH
 oH
@@ -978584,15 +979683,11 @@ BY
 oH
 oH
 oH
-BY
-oH
-oH
-oH
 oH
 oH
 BY
 oH
-oH
+Af
 BY
 BY
 BY
@@ -978679,11 +979774,7 @@ BY
 BY
 BY
 oH
-oH
-oH
-oH
-oH
-BY
+wn
 oH
 oH
 oH
@@ -978691,11 +979782,15 @@ BY
 oH
 oH
 oH
+BY
+ag
+Hn
+OX
 oH
 oH
 BY
-oH
-oH
+Lr
+Hn
 oH
 BY
 BY
@@ -978784,22 +979879,22 @@ BY
 BY
 BY
 BY
+ht
 BY
 BY
-BY
+ap
 oH
-oH
-oH
+nf
 BY
 BY
 BY
 BY
 BY
+ht
 BY
 BY
 BY
-BY
-oH
+ht
 BY
 BY
 BY
@@ -978877,25 +979972,15 @@ ac
 ac
 BY
 BY
-oH
-oH
-oH
-oH
-oH
-BY
-BY
-oH
-oH
-oH
-oH
+wZ
+Hd
+WE
+nR
 oH
 BY
-oH
-oH
-oH
 BY
 oH
-oH
+Af
 oH
 oH
 oH
@@ -978905,7 +979990,17 @@ oH
 oH
 BY
 oH
+Af
 oH
+oH
+oH
+BY
+OX
+Jd
+oH
+BY
+ls
+WE
 BY
 BY
 ac
@@ -978980,24 +980075,14 @@ ac
 BY
 BY
 BY
-oH
-oH
+bK
+Hd
 oH
 oH
 oH
 BY
 BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+jo
 oH
 oH
 oH
@@ -979007,9 +980092,19 @@ oH
 oH
 oH
 BY
+jo
 oH
 oH
 oH
+oH
+BY
+oH
+oH
+wj
+BY
+Hd
+oH
+xx
 BY
 BY
 ac
@@ -979090,25 +980185,25 @@ oH
 oH
 BY
 BY
+uY
 oH
 oH
-oH
-oH
-oH
+rw
+Iq
 BY
 oH
 oH
 oH
 BY
+uY
 oH
-oH
-oH
-oH
-oH
+rw
+Iq
+SK
 BY
+ag
 oH
-oH
-oH
+dv
 BY
 oH
 oH
@@ -979186,22 +980281,11 @@ BY
 BY
 BY
 BY
+ls
 oH
 oH
-oH
 BY
-oH
-BY
-BY
-BY
-BY
-BY
-BY
-BY
-BY
-oH
-oH
-oH
+YZ
 BY
 BY
 BY
@@ -979211,10 +980295,21 @@ BY
 BY
 BY
 oH
-BY
-BY
-BY
 oH
+oH
+BY
+BY
+BY
+BY
+BY
+BY
+BY
+BY
+Qn
+BY
+BY
+BY
+YZ
 BY
 BY
 BY
@@ -979389,6 +980484,32 @@ ac
 ac
 cP
 oH
+Kc
+oH
+Kc
+Jd
+oH
+oH
+BY
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
 oH
 oH
 oH
@@ -979396,33 +980517,7 @@ oH
 oH
 oH
 BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-BY
-oH
+MW
 oH
 oH
 cP
@@ -979503,20 +980598,20 @@ oH
 oH
 oH
 oH
+Hn
+oH
+oH
+oH
+oH
+oH
+Hn
 oH
 oH
 oH
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+Hn
 oH
 oH
 oH
@@ -979525,7 +980620,7 @@ oH
 oH
 oH
 BY
-oH
+It
 oH
 oH
 cP
@@ -979601,7 +980696,7 @@ oH
 oH
 oH
 oH
-oH
+XV
 oH
 oH
 oH
@@ -979621,16 +980716,16 @@ BY
 aX
 aX
 BY
-oH
+YZ
 BY
 BY
 oH
 oH
 oH
 BY
+Rl
 oH
-oH
-oH
+Kc
 BY
 BY
 ac
@@ -979699,7 +980794,7 @@ BY
 BY
 oH
 oH
-oH
+Kc
 oH
 oH
 oH
@@ -979725,12 +980820,12 @@ aX
 aX
 oH
 oH
-oH
+wZ
 BY
 oH
 oH
 oH
-oH
+XZ
 oH
 oH
 oH
@@ -979828,14 +980923,14 @@ BY
 oH
 oH
 oH
-oH
+bM
 BY
 oH
 oH
 oH
 BY
 oH
-oH
+Hn
 oH
 oH
 cP
@@ -979909,33 +981004,33 @@ aq
 aq
 aq
 oH
+Kc
+BY
+oH
+oH
+zz
+BY
+BY
+jo
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+zz
+BY
+wZ
+bM
+yo
 oH
 BY
 oH
 oH
-oH
-BY
-BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-BY
-oH
-oH
-oH
-oH
-BY
-oH
-oH
-oH
+zz
 aP
 aP
 aP
@@ -980032,8 +981127,8 @@ oH
 oH
 BY
 oH
-oH
-oH
+bM
+Hd
 oH
 BY
 oH
@@ -980122,7 +981217,7 @@ oH
 oH
 BY
 BY
-oH
+rV
 oH
 aX
 bb
@@ -980136,7 +981231,7 @@ oH
 BY
 oH
 oH
-oH
+bM
 oH
 BY
 oH
@@ -980217,7 +981312,7 @@ aq
 aJ
 aL
 aq
-oH
+jw
 oH
 BY
 oH
@@ -980237,10 +981332,10 @@ aY
 oH
 oH
 BY
+SF
+Tm
 oH
-oH
-oH
-oH
+ls
 BY
 oH
 oH
@@ -980535,7 +981630,7 @@ oH
 BY
 BY
 oH
-oH
+Fi
 aX
 bk
 bk
@@ -980546,9 +981641,9 @@ aX
 oH
 oH
 BY
+Hd
 oH
-oH
-oH
+RD
 oH
 BY
 oH
@@ -980649,9 +981744,9 @@ aX
 oH
 oH
 BY
-oH
-oH
-oH
+tq
+bM
+bM
 oH
 BY
 oH
@@ -980729,37 +981824,37 @@ BY
 BY
 oH
 oH
+Kc
 oH
 oH
-oH
-oH
-oH
-BY
-oH
-oH
-oH
-BY
-BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+CG
 oH
 BY
 oH
 oH
+zz
+BY
+BY
+jo
 oH
 oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+zz
 BY
 oH
 oH
+bJ
+nR
+BY
 oH
+oH
+zz
 aP
 aP
 aP
@@ -980855,17 +981950,17 @@ oH
 oH
 oH
 BY
-oH
-oH
-oH
-oH
+tq
+bM
+bM
+Tm
 BY
 oH
 oH
 oH
 BY
 oH
-oH
+Jd
 oH
 oH
 cP
@@ -980933,14 +982028,14 @@ ac
 ac
 BY
 BY
+jo
+Kc
+oH
+Kc
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
+XV
 oH
 oH
 oH
@@ -980966,7 +982061,7 @@ BY
 oH
 oH
 oH
-oH
+XZ
 oH
 oH
 oH
@@ -981063,16 +982158,16 @@ BY
 aX
 aX
 BY
-oH
+YZ
 BY
 BY
 oH
 oH
 oH
 BY
+MW
 oH
-oH
-oH
+Kc
 BY
 BY
 ac
@@ -981141,39 +982236,39 @@ ac
 cP
 oH
 oH
+Kc
+Kc
+oH
+oH
+oH
+BY
+oH
+oH
+oH
+oH
+Jd
+oH
+oH
+oH
+oH
+oH
+Jd
+oH
+oH
+oH
+oH
+oH
+oH
+Jd
+oH
+oH
 oH
 oH
 oH
 oH
 oH
 BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-BY
-oH
+It
 oH
 oH
 cP
@@ -981247,36 +982342,36 @@ oH
 oH
 oH
 oH
-oH
-oH
-BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+Kc
 oH
 BY
 oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+BY
+Rl
 oH
 oH
 cP
@@ -981452,22 +982547,11 @@ BY
 BY
 BY
 BY
+fR
 oH
 oH
-oH
 BY
-oH
-BY
-BY
-BY
-BY
-BY
-BY
-BY
-BY
-oH
-oH
-oH
+YZ
 BY
 BY
 BY
@@ -981477,10 +982561,21 @@ BY
 BY
 BY
 oH
-BY
-BY
-BY
 oH
+oH
+BY
+BY
+BY
+BY
+BY
+BY
+BY
+BY
+Qn
+BY
+BY
+BY
+YZ
 BY
 BY
 BY
@@ -981562,27 +982657,27 @@ oH
 oH
 BY
 BY
+gj
 oH
 oH
 oH
-oH
-oH
+VQ
 BY
 oH
 oH
 oH
 BY
+gj
 oH
-oH
-oH
-oH
-oH
+GW
+VQ
+CJ
 BY
+ag
 oH
-oH
-oH
+jP
 BY
-oH
+xx
 oH
 oH
 BY
@@ -981665,17 +982760,17 @@ oH
 oH
 BY
 BY
+jo
 oH
 oH
 oH
+GW
+BY
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
+BY
+jo
 oH
 oH
 oH
@@ -981687,7 +982782,7 @@ oH
 BY
 oH
 oH
-oH
+wZ
 BY
 BY
 ac
@@ -981762,24 +982857,14 @@ ac
 BY
 BY
 oH
-oH
-oH
-oH
-oH
-BY
-BY
-oH
-oH
-oH
+mA
+ND
 oH
 oH
 BY
+ba
 oH
-oH
-oH
-BY
-oH
-oH
+DF
 oH
 oH
 oH
@@ -981789,7 +982874,17 @@ oH
 oH
 BY
 oH
+DF
 oH
+oH
+oH
+BY
+OX
+Hn
+oH
+BY
+oH
+ND
 BY
 BY
 ac
@@ -981874,22 +982969,22 @@ BY
 BY
 BY
 BY
+ht
 BY
 BY
-BY
+ap
 oH
-oH
-oH
+nf
 BY
 BY
 BY
 BY
 BY
+ht
 BY
 BY
 BY
-BY
-oH
+ht
 BY
 BY
 BY
@@ -981974,24 +983069,24 @@ BY
 BY
 BY
 BY
-oH
-oH
-oH
-oH
-oH
-BY
-oH
+ag
+Jd
+jP
 oH
 oH
 BY
 oH
 oH
 oH
+BY
+ag
+Jd
+oH
 oH
 oH
 BY
-oH
-oH
+gj
+Jd
 oH
 BY
 BY
@@ -982079,22 +983174,22 @@ BY
 BY
 oH
 oH
+wj
+oH
+oH
+An
 oH
 oH
 oH
+An
 oH
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+wj
+wj
+Ke
 BY
 oH
-oH
+DF
 BY
 BY
 BY
@@ -982196,7 +983291,7 @@ oH
 oH
 oH
 BY
-oH
+jO
 BY
 BY
 ac
@@ -982286,15 +983381,15 @@ BY
 BY
 oH
 oH
-oH
-oH
-BY
-oH
-oH
+OX
 oH
 BY
 oH
 oH
+oH
+BY
+BY
+OX
 oH
 oH
 BY
@@ -982393,9 +983488,9 @@ BY
 BY
 BY
 oH
+Kc
 oH
 oH
-BY
 BY
 BY
 cP
@@ -982497,8 +983592,8 @@ BY
 BY
 cP
 cP
-cP
 BY
+Zy
 BY
 BY
 ac
@@ -982601,7 +983696,7 @@ ac
 ac
 ac
 ac
-ac
+KO
 ac
 ac
 ac
@@ -988777,13 +989872,13 @@ BY
 BY
 BY
 BY
+Tr
+WC
 oH
 oH
 oH
-oH
-oH
-oH
-oH
+JZ
+hu
 BY
 BY
 BY
@@ -988879,6 +989974,7 @@ oH
 oH
 oH
 oH
+Jd
 oH
 oH
 oH
@@ -988886,12 +989982,11 @@ oH
 oH
 oH
 oH
+Jd
 oH
 oH
-oH
-oH
-oH
-oH
+KE
+hE
 oH
 BY
 BY
@@ -988980,21 +990075,21 @@ BY
 BY
 oH
 oH
+Lo
+oH
+oH
+oH
+oH
+JZ
+FL
+JZ
 oH
 oH
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+JZ
+JZ
 oH
 BY
 BY
@@ -989083,14 +990178,14 @@ BY
 BY
 oH
 oH
+JZ
 oH
 oH
 oH
 oH
+sQ
 oH
-oH
-oH
-oH
+JZ
 oH
 oH
 oH
@@ -989186,14 +990281,14 @@ BY
 BY
 oH
 oH
+JZ
 oH
 oH
 oH
 oH
-oH
-oH
-oH
-oH
+JZ
+JZ
+JZ
 oH
 oH
 oH
@@ -989289,6 +990384,7 @@ BY
 BY
 oH
 oH
+JZ
 oH
 oH
 oH
@@ -989301,14 +990397,13 @@ oH
 oH
 oH
 oH
-oH
-oH
-oH
+JZ
+JZ
 oH
 BY
 BY
 oH
-oH
+Jd
 oH
 BY
 BY
@@ -989383,9 +990478,9 @@ ac
 ac
 BY
 BY
-oH
-oH
-oH
+QX
+Jd
+aR
 BY
 BY
 BY
@@ -989395,23 +990490,23 @@ oH
 oH
 oH
 oH
+Hn
+oH
+oH
+KE
+oH
+oH
+Hn
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+xc
+xc
 oH
 BY
 BY
 oH
-oH
+YI
 oH
 BY
 BY
@@ -989486,35 +990581,35 @@ ac
 ac
 BY
 BY
-oH
-oH
-oH
-BY
-BY
-BY
-BY
-oH
-oH
-BY
-oH
-oH
-BY
-oH
-oH
-oH
-oH
-oH
-BY
-oH
+Jc
 oH
 oH
 BY
 BY
 BY
 BY
+qC
+oH
 BY
 oH
+wX
+BY
 oH
+Hr
+JZ
+JZ
+oH
+BY
+oH
+wX
+RE
+BY
+BY
+BY
+BY
+BY
+oH
+YI
 oH
 oH
 oH
@@ -989592,9 +990687,9 @@ BY
 oH
 oH
 oH
+XV
 oH
-oH
-oH
+Jd
 BY
 BY
 BY
@@ -989603,9 +990698,9 @@ oH
 oH
 BY
 oH
+xc
 oH
-oH
-oH
+xc
 oH
 BY
 oH
@@ -989615,7 +990710,7 @@ oH
 oH
 oH
 oH
-oH
+RE
 oH
 oH
 oH
@@ -989690,8 +990785,8 @@ ac
 ac
 BY
 BY
-oH
-oH
+ma
+aR
 oH
 oH
 oH
@@ -989718,11 +990813,11 @@ oH
 oH
 oH
 oH
+XV
 oH
 oH
-oH
-oH
-oH
+YI
+YI
 oH
 BY
 BY
@@ -989793,11 +990888,11 @@ ac
 ac
 BY
 BY
+WO
 oH
 oH
 oH
-oH
-oH
+Jc
 BY
 oH
 oH
@@ -989810,7 +990905,7 @@ oH
 oH
 oH
 oH
-oH
+Jd
 oH
 oH
 oH
@@ -989896,11 +990991,11 @@ ac
 ac
 BY
 BY
+ma
+Sw
 oH
-oH
-oH
-oH
-oH
+rf
+ma
 BY
 oH
 oH
@@ -989926,11 +991021,11 @@ oH
 oH
 BY
 oH
+YI
+YI
 oH
-oH
-oH
-oH
-oH
+YI
+YI
 oH
 cP
 ac
@@ -990026,15 +991121,15 @@ aX
 aX
 oH
 oH
-oH
+zz
 BY
 oH
+YI
+YI
 oH
 oH
 oH
-oH
-oH
-oH
+zz
 BY
 BY
 ac
@@ -990118,9 +991213,9 @@ BY
 oH
 oH
 BY
-BY
-BY
-BY
+Wo
+ut
+NQ
 BY
 oH
 oH
@@ -990135,8 +991230,8 @@ oH
 oH
 oH
 oH
-oH
-oH
+YI
+YI
 oH
 BY
 BY
@@ -990318,6 +991413,7 @@ oH
 oH
 oH
 oH
+Jd
 oH
 oH
 oH
@@ -990329,8 +991425,7 @@ oH
 oH
 oH
 oH
-oH
-oH
+zz
 BY
 BY
 oH
@@ -990339,7 +991434,7 @@ oH
 BY
 oH
 oH
-oH
+Gy
 aP
 aP
 aP
@@ -990440,9 +991535,9 @@ oH
 oH
 oH
 BY
-oH
-oH
-oH
+Fg
+nx
+Gy
 aP
 bN
 bN
@@ -990537,7 +991632,7 @@ bz
 aX
 oH
 oH
-BY
+Ee
 BY
 oH
 oH
@@ -990626,8 +991721,8 @@ BY
 oH
 oH
 BY
-BY
-BY
+ac
+ac
 BY
 oH
 oH
@@ -990640,7 +991735,7 @@ bz
 aY
 oH
 oH
-BY
+oB
 BY
 oH
 oH
@@ -990726,12 +991821,12 @@ bN
 aq
 BY
 BY
+jo
 oH
-oH
-BY
-BY
-BY
-BY
+cP
+ac
+ac
+cP
 oH
 oH
 aY
@@ -990743,9 +991838,9 @@ bz
 aY
 oH
 oH
+uW
 BY
-BY
-oH
+jo
 oH
 oH
 oH
@@ -990832,8 +991927,8 @@ BY
 oH
 oH
 BY
-BY
-BY
+ac
+ac
 BY
 oH
 oH
@@ -990846,7 +991941,7 @@ bz
 aY
 oH
 oH
-BY
+hW
 BY
 oH
 oH
@@ -990949,7 +992044,7 @@ bz
 aX
 oH
 oH
-BY
+oB
 BY
 oH
 oH
@@ -991027,11 +992122,11 @@ ac
 ac
 BY
 BY
+Oj
 oH
+Fd
 oH
-oH
-oH
-oH
+Jd
 oH
 oH
 BY
@@ -991059,7 +992154,7 @@ oH
 oH
 BY
 oH
-oH
+Jd
 oH
 aP
 bN
@@ -991142,6 +992237,7 @@ oH
 oH
 oH
 oH
+Hn
 oH
 oH
 oH
@@ -991153,8 +992249,7 @@ oH
 oH
 oH
 oH
-oH
-oH
+zz
 BY
 BY
 oH
@@ -991162,7 +992257,7 @@ oH
 oH
 BY
 oH
-oH
+bM
 oH
 aP
 aP
@@ -991236,36 +992331,36 @@ cP
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-BY
-oH
-oH
-BY
-BY
-BY
-BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-BY
-BY
+hF
 oH
 oH
 oH
 BY
 oH
 oH
+BY
+BY
+BY
+BY
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+BY
+BY
+oH
+oH
+oH
+BY
+oH
+bM
 oH
 oH
 oH
@@ -991339,11 +992434,11 @@ cP
 oH
 oH
 oH
+OD
+jZ
 oH
 oH
-oH
-oH
-oH
+XV
 oH
 oH
 BY
@@ -991354,9 +992449,9 @@ BY
 oH
 oH
 BY
-BY
-BY
-BY
+vS
+NV
+VO
 BY
 oH
 oH
@@ -991370,7 +992465,7 @@ BY
 oH
 oH
 oH
-oH
+bM
 oH
 oH
 oH
@@ -991441,9 +992536,9 @@ ac
 BY
 BY
 oH
-oH
-oH
-oH
+pA
+Sq
+sk
 oH
 oH
 oH
@@ -991468,14 +992563,14 @@ aX
 aX
 oH
 oH
-oH
+zz
 BY
 oH
 oH
 oH
-oH
-oH
-oH
+jh
+tm
+Sh
 oH
 BY
 BY
@@ -991544,41 +992639,41 @@ ac
 ac
 cP
 oH
-oH
-oH
-oH
-oH
-oH
-BY
-oH
-oH
-BY
-BY
-BY
-BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-BY
-BY
+ly
+hF
 oH
 oH
 oH
 BY
 oH
 oH
+BY
+BY
+BY
+BY
 oH
 oH
 oH
 oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+BY
+BY
+oH
+oH
+oH
+BY
+oH
+oH
+bM
+dj
+Sh
+Sh
 oH
 cP
 ac
@@ -991664,6 +992759,7 @@ oH
 oH
 oH
 oH
+Hn
 oH
 oH
 oH
@@ -991674,12 +992770,11 @@ oH
 oH
 oH
 oH
+XV
+CP
 oH
-oH
-oH
-oH
-oH
-oH
+bM
+bM
 oH
 oH
 oH
@@ -991752,9 +992847,24 @@ BY
 BY
 BY
 oH
+Hn
+oH
+oH
+BY
 oH
 oH
 oH
+oH
+oH
+oH
+oH
+oH
+BY
+BY
+BY
+BY
+BY
+BY
 BY
 oH
 oH
@@ -991764,24 +992874,9 @@ oH
 oH
 oH
 oH
-BY
-BY
-BY
-BY
-BY
-BY
-BY
+nc
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+bM
 oH
 oH
 BY
@@ -991860,7 +992955,7 @@ BY
 BY
 BY
 oH
-oH
+tF
 BY
 BY
 BY
@@ -991869,9 +992964,9 @@ oH
 oH
 BY
 oH
+KE
 oH
-oH
-oH
+KE
 oH
 BY
 oH
@@ -991881,7 +992976,7 @@ oH
 oH
 oH
 oH
-oH
+RE
 oH
 oH
 oH
@@ -991959,36 +993054,36 @@ ac
 BY
 BY
 BY
-oH
-oH
-oH
-oH
-oH
-BY
-oH
-oH
-BY
-oH
-oH
-BY
-oH
+ig
 oH
 oH
 oH
 oH
 BY
+qC
 oH
+BY
 oH
+JK
+BY
 oH
+YD
+YD
+JZ
+oH
+BY
+oH
+JK
+RE
 BY
 BY
 BY
 BY
 BY
 oH
+bM
 oH
-oH
-oH
+bM
 oH
 cP
 ac
@@ -992062,10 +993157,10 @@ ac
 BY
 BY
 BY
+jo
 oH
 oH
-oH
-oH
+os
 oH
 BY
 oH
@@ -992073,13 +993168,13 @@ oH
 oH
 oH
 oH
+Jd
 oH
 oH
+xc
 oH
 oH
-oH
-oH
-oH
+Jd
 oH
 oH
 oH
@@ -992165,34 +993260,34 @@ ac
 ac
 BY
 BY
+oX
 oH
 oH
-oH
-oH
-oH
-BY
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+SD
 oH
 BY
+oH
+oH
+JZ
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+oH
+JZ
+JZ
+oH
+BY
 BY
 oH
-oH
+nx
 oH
 BY
 BY
@@ -992271,19 +993366,19 @@ BY
 BY
 BY
 oH
-oH
-oH
+uU
+Ke
 BY
 oH
 oH
+Jm
 oH
 oH
 oH
 oH
-oH
-oH
-oH
-oH
+JZ
+aQ
+JZ
 oH
 oH
 oH
@@ -992373,20 +993468,20 @@ ac
 ac
 BY
 BY
-oH
-oH
+Kd
+dv
 oH
 BY
 oH
 oH
+JZ
 oH
 oH
 oH
 oH
+JZ
 oH
-oH
-oH
-oH
+JZ
 oH
 oH
 oH
@@ -992476,27 +993571,27 @@ ac
 ac
 ac
 BY
-cP
+uJ
 BY
 BY
 BY
 oH
 oH
+JZ
+oH
+oH
+oH
+oH
+jm
+JZ
+JZ
 oH
 oH
 oH
 oH
 oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
-oH
+JZ
+JZ
 oH
 BY
 BY
@@ -992587,6 +993682,7 @@ oH
 oH
 oH
 oH
+Hn
 oH
 oH
 oH
@@ -992594,8 +993690,7 @@ oH
 oH
 oH
 oH
-oH
-oH
+Hn
 oH
 oH
 oH
@@ -992691,12 +993786,12 @@ BY
 BY
 BY
 BY
+Tr
+JZ
 oH
 oH
-oH
-oH
-oH
-oH
+Tr
+KK
 oH
 BY
 BY
